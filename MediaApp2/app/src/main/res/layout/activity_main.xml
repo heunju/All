@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jikur.mediaapp.MainActivity">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="재생"
+        android:id="@+id/btnPlay"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="중지"
+        android:id="@+id/btnStop"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="재시작"
+        android:id="@+id/btnReplay"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="비디오재생"
+        android:id="@+id/btnVideo"/>
+
+    <VideoView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/videoView"/>
+</LinearLayout>
